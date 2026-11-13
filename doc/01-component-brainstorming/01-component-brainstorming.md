@@ -1,8 +1,8 @@
 # Portfolio Part 1: Component Brainstorming
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **Due Date**: <!-- TODO: fill with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Name**: Rocky Shao
+- **Dot Number**: shao.706
+- **Due Date**: 11/13 4pm (first round submit?)
 
 ## Assignment Overview
 
@@ -106,23 +106,25 @@ Below is further rationale/explanation for the rubric items above:
 > brainstorming. Plus it helps us get to know you better! Feel free to share
 > images in this section.
 
-<!-- TODO: briefly talk about your interests then delete this comment.
-Also, protip: you can preview what your response looks like by hitting
-the magnifying glass icon in the upper-right corner or pressing CTRL+K and
-then V. This kind of button combination is called a chord, for whatever
-reason -->
+```
+Perosnal Interests:
+- Gaming
+- Chilling
+- Food
+
+Career Goals
+- Work on cool technology
+- Get enough money
+- Feel accomplished and proud for my work
+```
 
 ## Assignment
-
-<!-- TODO: read the assignment section then delete this comment -->
 
 As previously stated, you are tasked with brainstorming 3 possible components.
 To aid you in this process, we have provided [some example components][example-components]
 that may help you in your brainstorming. All of these components were made at
 some point by one of your peers, so you should feel confident that you can
 accomplish any of them.
-
-<!-- TODO: browse the list of possible projects then delete this comment -->
 
 There is no requirement that you use any of the components listed above.
 If you want to model something else, go for it! Very common early object
@@ -211,17 +213,24 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: <!-- TODO: give component a name then delete this comment -->
+- Component Design #1: Romen Numbers
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - Romen Numbers. Each RomenNumber will have toString() that shows the Romen Numberal of the number.
+    - RomenNumber four = new RomenNumber(4);
+    - print(four.toString()) -> "IV"
+    - four.add(five)
+    - print(four) -> "IX"
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - toInteger();
+    - updateInteger();
+    - createRomenNumeral();
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - .add(RomemNumber)
+    - .subtract(RomenNumber)
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes. I
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
       - <!-- TODO: provide an argument then delete this comment -->
